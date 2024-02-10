@@ -1,5 +1,5 @@
 html {
-  font-size : 62.5%; /*62.5% of 16px = 10px */
+  font-size: 62.5%; /*62.5% of 16px = 10px */
 }
 
 * {
@@ -9,4 +9,10 @@ html {
 body {
   margin: 0;
   box-sizing: border-box;
+  max-width: 1440px;
+  max-height: 100vh;
+}
+
+a {
+  text-decoration: none;
 }
