@@ -1,6 +1,4 @@
 const AboutScreen = () => {
-  return (
-    <div>AboutScreen</div>
-  )
-}
-export default AboutScreen
+  return <>AboutScreen</>;
+};
+export default AboutScreen;
