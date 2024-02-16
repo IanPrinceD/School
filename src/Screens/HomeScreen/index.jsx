@@ -1,9 +1,4 @@
-const HomeScreen
- = () => {
-  return (
-    <div>HomeScreen
-     
-    </div>
-  )
-}
-export default HomeScreen
+const HomeScreen = () => {
+  return <>HomeScreen</>;
+};
+export default HomeScreen;
