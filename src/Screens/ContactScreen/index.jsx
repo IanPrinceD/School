@@ -1,6 +1,4 @@
 const ContactScreen = () => {
-  return (
-    <div>ContactScreen</div>
-  )
-}
-export default ContactScreen
+  return <>ContactScreen</>;
+};
+export default ContactScreen;

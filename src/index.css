@@ -9,8 +9,6 @@ html {
 body {
   margin: 0;
   box-sizing: border-box;
-  max-width: 1440px;
-  max-height: 100vh;
 }
 
 a {
