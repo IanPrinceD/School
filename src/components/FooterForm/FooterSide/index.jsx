@@ -1,16 +1,16 @@
-import { Stack } from '@mui/material';
-import { TextContainer } from './FooterSide.element';
+import { SideText, TextCTA, TextContainer } from './FooterSide.element';
 
 const FooterSide = () => {
   return (
-    <Stack sx={{ flexGrow: 1, textAlign: 'center' }}>
+    <SideText>
+      <TextContainer>sign up for our newsletter and</TextContainer>
       <TextContainer>
-        Sign up for our newsletter and
+        get my {''}
+        <TextCTA>
+          set up your child for success guide.
+        </TextCTA>
       </TextContainer>
-      <TextContainer>
-        get my FREE expense tracker
-      </TextContainer>
-    </Stack>
+    </SideText>
   );
 };
 export default FooterSide;

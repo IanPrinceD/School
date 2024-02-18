@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillInstagram } from 'react-icons/ai';
 import { FaFacebook, FaTiktok } from 'react-icons/fa';
-import { FaSquareXTwitter } from 'react-icons/fa6';
+import { FaYoutube } from 'react-icons/fa';
 
 const createIconElement = (IconComponent, options) => {
   return React.createElement(IconComponent, {
@@ -71,9 +71,9 @@ export const socmed = [
       },
       {
         id: 4,
-        text: 'twitter',
+        text: 'Youtube',
         link: 'https://twitter.com/',
-        icon: createIconElement(FaSquareXTwitter),
+        icon: createIconElement(FaYoutube),
       },
     ],
   },

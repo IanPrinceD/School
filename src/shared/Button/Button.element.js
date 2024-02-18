@@ -7,7 +7,7 @@ export const SubButton = styled(Button)(
     width = '40%',
     height = '100%',
     textcolor = '#FEFEFE',
-    backgroundcolor = '#002084',
+    backgroundcolor = '#FA0F0E',
     borderradius = '1rem',
     margin = '.5rem',
   }) => ({
@@ -15,6 +15,8 @@ export const SubButton = styled(Button)(
     width,
     margin: margin,
     fontSize: '1.5rem',
+    fontWeight: '700',
+    letterSpacing: '.2rem',
     color: textcolor,
     background: backgroundcolor,
     borderRadius: borderradius,

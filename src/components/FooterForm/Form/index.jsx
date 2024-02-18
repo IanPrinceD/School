@@ -6,7 +6,7 @@ import { TextFieldStyled } from './FooterForm.element';
 const Form = () => {
   const { register, handleSubmit } = useForm();
   return (
-    <Stack sx={{flexGrow: 1}}>
+    <Stack sx={{flexGrow: 2}}>
       <TextFieldStyled
         size="small"
         label="fullname"
@@ -18,6 +18,17 @@ const Form = () => {
           required: true,
         })}
       />
+        <TextFieldStyled
+          size="small"
+          label="email"
+          inputProps={{ style: { fontSize: '1.3rem' } }}
+          InputLabelProps={{ style: { fontSize: '1.2rem' } }}
+          type="email"
+          margin="dense"
+          {...register('email', {
+            required: true,
+          })}
+        />
       <TextFieldStyled
         size="small"
         label="mobile number"
@@ -27,18 +38,7 @@ const Form = () => {
         margin="dense"
         {...register('mobile number')}
       />
-      <TextFieldStyled
-        size="small"
-        label="email"
-        inputProps={{ style: { fontSize: '1.3rem' } }}
-        InputLabelProps={{ style: { fontSize: '1.2rem' } }}
-        type="email"
-        margin="dense"
-        {...register('email', {
-          required: true,
-        })}
-      />
-      <Button type="submit" height="4rem" margin="1rem auto" text="submit" />
+      <Button type="submit" height="4rem" width='' margin="1rem auto" text="send the guide" />
     </Stack>
   );
 };
