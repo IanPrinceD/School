@@ -14,6 +14,7 @@ export const SubButton = styled(Button)(
     height,
     width,
     margin: margin,
+    padding: '1.2rem',
     fontSize: '1.5rem',
     fontWeight: '700',
     letterSpacing: '.2rem',
