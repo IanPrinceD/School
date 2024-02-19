@@ -1,13 +1,13 @@
 import styled from '@emotion/styled';
 import { Box, Link, Stack } from '@mui/material';
 
-export const NavigationContainer = styled(Box)(({theme}) => ({
+export const NavigationContainer = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.primary.main,
   width: '100%',
   boxShadow: '0.1rem 0.5rem 1rem #BDB8B8',
   position: 'sticky',
   top: 0,
-  
+  zIndex: '99',
 }));
 
 export const NavigationHolder = styled(Stack)(() => ({
