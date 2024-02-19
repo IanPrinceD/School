@@ -2,16 +2,16 @@ import { createTheme } from '@mui/material';
 
 const theme = createTheme({
   palette: {
-    primary: { main: '#002084' },
-    secondary: { main: '#FA0F0E' },
-    accent: { main: '#F3F34A' },
-    info: { main: '#FEFEFE' },
+    primary: { main: '#002084' }, // blue
+    secondary: { main: '#FA0F0E' }, // red
+    accent: { main: '#F3F34A' }, // yellow
+    info: { main: '#FEFEFE' }, // white
   },
   typography: {
     fontFamily: ['Poppins', 'san-serif'].join(','),
     h1: {
       fontFamily: '"Inter", san-serif',
-      fontSize: 'clamp(3rem, 5vw, 6rem)',
+      fontSize: 'clamp(3rem, 4vw, 5rem)',
       fontWeight: '500',
       color: '#FEFEFE',
     },

@@ -14,3 +14,24 @@ body {
 a {
   text-decoration: none;
 }
+
+.swiper-wrapper {
+  padding-bottom: 2rem;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.swiper-pagination-bullet {
+  background: #bfd2f8;
+  border: #1f2b6c solid 2px;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #1f2b6c;
+  /* border: #bfd2f8 solid 2px; */
+}
