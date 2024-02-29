@@ -1,11 +1,13 @@
-import { Container } from '@mui/material';
+import { Box } from '@mui/material';
+import CoreValue from '../../components/CoreValue';
 import Hero from '../../components/Hero';
 
 const HomeScreen = () => {
   return (
-    <Container>
+    <Box>
       <Hero />
-    </Container>
+      <CoreValue />
+    </Box>
   );
 };
 export default HomeScreen;
