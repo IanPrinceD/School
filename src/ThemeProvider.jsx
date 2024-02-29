@@ -12,7 +12,7 @@ const theme = createTheme({
     h1: {
       fontFamily: '"Inter", san-serif',
       fontSize: 'clamp(3rem, 4vw, 5rem)',
-      fontWeight: '500',
+      fontWeight: '700',
       color: '#FEFEFE',
     },
     h2: {
