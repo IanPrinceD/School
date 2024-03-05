@@ -1,12 +1,12 @@
 import { Box } from '@mui/material';
-import CoreValue from '../../components/CoreValue';
-import Hero from '../../components/Hero';
+import { CoreValue, Courses, Hero } from '../../components/HomePage';
 
 const HomeScreen = () => {
   return (
     <Box>
       <Hero />
       <CoreValue />
+      <Courses />
     </Box>
   );
 };

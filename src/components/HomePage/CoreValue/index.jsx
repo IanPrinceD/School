@@ -5,8 +5,8 @@ import ThirdCore from './ThirdCore';
 
 const CoreValue = () => {
   return (
-    <Box sx={{ backgroundColor: '#002084', marginBlock: '2rem' }}>
-      <Container sx={{paddingBlock: '6rem'}}>
+    <Box sx={{ backgroundColor: '#F3F34A', marginBlock: '2rem' }}>
+      <Container sx={{ paddingBlock: '6rem' }}>
         <Stack
           direction="row"
           sx={{

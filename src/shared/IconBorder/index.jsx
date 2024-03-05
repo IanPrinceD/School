@@ -1,6 +1,7 @@
-import { Box } from "@mui/material";
+import { Box } from '@mui/material';
+import PropTypes from 'prop-types';
 
-const IconBorder = () => {
+const IconBorder = ({ children }) => {
   return (
     <Box
       sx={{
@@ -10,8 +11,12 @@ const IconBorder = () => {
         marginBottom: '1.5rem',
       }}
     >
-      {/* <PiBooksFill style={{ fontSize: '5rem', color: '#FA0F0E' }} /> */}
+    {children}
     </Box>
   );
-}
-export default IconBorder
+};
+
+IconBorder.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+export default IconBorder;
