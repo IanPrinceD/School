@@ -1,4 +1,5 @@
 import { Box, Container, Typography } from '@mui/material';
+import { data } from './data';
 
 const Courses = () => {
   return (
@@ -14,7 +15,13 @@ const Courses = () => {
         </Typography>
       </Box>
       <Box>
-       
+        {data.map((data) => (
+          <Box key={data.id}>
+            <Box component="img" src={data.img} />
+            <Box>{data.title}</Box>
+            <Box>{data.description}</Box>
+          </Box>
+        ))}
       </Box>
     </Container>
   );
